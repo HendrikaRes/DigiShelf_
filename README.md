@@ -43,12 +43,4 @@ cp .env.example .env
 php artisan key:generate
 6. Konfigurasi Database
 
-Buka file .env lalu sesuaikan:
 
-DB_DATABASE=digishelf
-DB_USERNAME=root
-DB_PASSWORD=
-7. Jalankan Migration
-php artisan migrate
-8. Jalankan Server
-php artisan serve
